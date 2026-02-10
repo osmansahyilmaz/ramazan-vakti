@@ -1,0 +1,52 @@
+name: ramazan_vakti_pro
+description: A production-ready Ramazan application for Turkey.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  
+  # State Management
+  flutter_riverpod: ^2.4.9
+  
+  # Persistence
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  
+  # Location & Maps
+  geolocator: ^10.1.0
+  geocoding: ^2.1.1
+  google_maps_flutter: ^2.5.0
+  flutter_qiblah: ^2.0.0
+  permission_handler: ^11.1.0
+  
+  # Islamic Logic
+  adhan: ^2.0.0
+  hijri: ^3.0.0
+  quran: ^1.2.1
+  
+  # UI & Media
+  google_fonts: ^6.1.0
+  intl: ^0.19.0
+  just_audio: ^0.9.36
+  percent_indicator: ^4.2.3
+  flutter_svg: ^2.0.9
+  
+  # Notifications
+  flutter_local_notifications: ^16.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/

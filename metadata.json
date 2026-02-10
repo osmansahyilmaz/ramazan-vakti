@@ -1,0 +1,7 @@
+{
+  "name": "Ramazan Vakti Pro",
+  "description": "Premium prayer times, Quran, and Ramazan companion app for Turkey.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
